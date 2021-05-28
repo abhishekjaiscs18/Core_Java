@@ -23,7 +23,7 @@ class StudentTest {
 		Student student4 = student1;
 		System.out.println("ID of student4: " + student4.id + "| Name of student4: " + student4.name +"| Gender of student4: " + student4.name);
 		
-		student4.updateProfile("mike");
+		student4.updateProfile("Mike");
 		System.out.println("Name of student4: " + student4.name);
 		
 		student4 = student2;
