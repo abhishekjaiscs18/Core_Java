@@ -1,21 +1,22 @@
-class Student{
-	int id;
-	String name;
-	String gender;
-
-	boolean updateProfile(String newName){
-		name=newName;
-		return true;
+class Student {
+    // variable declarations
+    int id; 
+    String name; 
+    String gender = "male";
+	
+	// Constructors
+	Student(int id, String name) {
+	    this(name); // Invoking overloaded constructor. If present, should be first statement
+	    this.id = id;
 	}
-}
-class Main{
-	public static void main(String args[]){
-		Student s=new Student();
-		s.id=100;
-		s.name="Abhi";
-		s.gender="Male";
-		System.out.println("Newly created student has \n ID : " + s.id + "\n Name : "+s.name+"\n Gender : " + s.gender); 
-		s.updateProfile("Abhishek");
-		System.out.println("After updation student has \n ID : " + s.id + "\n Name : "+s.name+"\n Gender : " + s.gender); 
+	
+	Student(String name) {
+	    this.name = name;
 	}
+	
+    // method definitions
+    boolean updateProfile(String name) {
+       this.name = name;
+       return true;
+    }
 }
