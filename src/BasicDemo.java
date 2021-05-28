@@ -132,5 +132,6 @@ class BasicDemo {
         varargsOverload(true, 1, 2, 3);
         varargsOverload(true, 1, 2, 3, 4, 5, 6, 7, 8);
         varargsOverload(true);
+	charTypePromotion();
     }
 }
