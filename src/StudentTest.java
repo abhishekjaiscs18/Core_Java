@@ -19,6 +19,20 @@ class StudentTest {
 		student1.updateProfile("john");
 		System.out.println("Updated name of student1: " + student1.name);
 		
+		if(student1 == student2)
+			System.out.println("Student1 and student2 are referencing same object.");
+		
+		if(student1 != student2)
+			System.out.println("Student1 and student2 are referencing different object.");
+
+		Student student5=null;
+		student5 = student1;		
+
+		if(student5!=null && (student5==student2) || (student5==student1))
+			System.out.println("Name of student5: " + student5.name);  
+
+		Student student4 = student1;
+		System.out.println("ID of student4: " + student4.id + "| Name of student4: " + student4.name +"| Gender of student4: " + student4.name);
 		
 		Student student4 = student1;
 		System.out.println("ID of student4: " + student4.id + "| Name of student4: " + student4.name +"| Gender of student4: " + student4.name);
