@@ -140,7 +140,20 @@ class BasicDemo {
 		//double d2 = 5.15;
 		//System.out.println("d1 | d2: " + (d1 | d2));
    }
-	 static void switchExample() {
+   static void ifElseExample() {
+	    System.out.println("\nInside ifElseExample ...");
+	    int month = 3;
+	    if(month==1) {
+		System.out.println("January");
+	    }else if(month==2){
+		System.out.println("February");
+	     }else if(month==3){
+		System.out.println("March");
+	     }else{
+		System.out.println("April");
+	    }
+    }
+    static void switchExample() {
 	    System.out.println("\nInside switchExample ...");
 	    int month = 3;
 	    switch (month) {
@@ -153,7 +166,7 @@ class BasicDemo {
 		    default: System.out.println("April");
 	    }
     }
-	  static void labeledBreak() {
+    static void labeledBreak() {
 	    System.out.println("\nInside labeledBreak ...");
 	    int num = 0;
 		
@@ -168,7 +181,7 @@ class BasicDemo {
 		
 	    System.out.println("num: " + num); // prints 55		
     }
-	  static void labeledContinue() {
+    static void labeledContinue() {
 	    System.out.println("\nInside labeledContinue ...");
 	    int num = 0;
 		
