@@ -200,5 +200,6 @@ class BasicDemo {
 	bitwiseOperators();
 	switchExample();
 	labeledBreak();
+	labeledContinue();
     }
 }
