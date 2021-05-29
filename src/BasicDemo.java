@@ -208,6 +208,13 @@ class BasicDemo {
 			System.out.print(arr[i]+" ");
 		}
     }
+    static void forEachExample(int[] arr){
+		System.out.println("\nInside forEachExample ...");
+		for(int i:arr){
+			System.out.print(i + " ");
+		}
+    }
+
 	
 
 
