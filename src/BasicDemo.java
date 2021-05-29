@@ -201,6 +201,12 @@ class BasicDemo {
 		
 	    System.out.println("num: " + num); // prints 55		
     }
+    static void forExample(int[] arr){
+		System.out.println("\nInside forExample ...");
+		for(int i=0;i<arr.length;i++){
+			System.out.print(arr[i]+" ");
+		}
+    }
 	
 
 
