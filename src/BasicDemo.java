@@ -139,7 +139,20 @@ class BasicDemo {
 		//double d1 = 3.14;
 		//double d2 = 5.15;
 		//System.out.println("d1 | d2: " + (d1 | d2));
-  }
+   }
+	 static void switchExample() {
+	    System.out.println("\nInside switchExample ...");
+	    int month = 3;
+	    switch (month) {
+		    case 1: System.out.println("January");
+	                break;
+		    case 2: System.out.println("February");
+	                break;
+	        case 3: System.out.println("March");
+	                break;
+		    default: System.out.println("April");
+	    }
+    }
 	
 
 
@@ -155,5 +168,6 @@ class BasicDemo {
         varargsOverload(true);
 	charTypePromotion();
 	bitwiseOperators();
+	switchExample();
     }
 }
