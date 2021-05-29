@@ -166,6 +166,11 @@ class BasicDemo {
 		    default: System.out.println("April");
 	    }
     }
+    static int min(int a, int b){
+    	int result = (a<b) ? a : b ;
+	return result;
+    }	
+
     static void labeledBreak() {
 	    System.out.println("\nInside labeledBreak ...");
 	    int num = 0;
@@ -211,9 +216,11 @@ class BasicDemo {
         varargsOverload(true);
 	charTypePromotion();
 	bitwiseOperators();
+	ifElseExample();
 	switchExample();
+	int min = min(9,3);
 	labeledBreak();
 	labeledContinue();
-	ifElseExample();
+	
     }
 }
