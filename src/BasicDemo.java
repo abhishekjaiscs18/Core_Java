@@ -214,5 +214,6 @@ class BasicDemo {
 	switchExample();
 	labeledBreak();
 	labeledContinue();
+	ifElseExample();
     }
 }
