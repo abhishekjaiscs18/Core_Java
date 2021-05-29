@@ -184,5 +184,6 @@ class BasicDemo {
 	charTypePromotion();
 	bitwiseOperators();
 	switchExample();
+	labeledBreak();
     }
 }
