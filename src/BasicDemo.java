@@ -142,24 +142,18 @@ class BasicDemo {
    }
    static void bitwiseShiftOperators() {
 	        System.out.println("\nInside bitwiseShiftOperators ...");
-	   	
-	   	int x = 6;
-		int y = 3;
+	
 	   	System.out.println("\nLeft Shift Example : ");
-		System.out.println(" x<<2 : " + x<<2 );
-		System.out.println(" y<<5 : " + y<<5 );
+		System.out.println(" 6<<2 : " + 6<<2 );
+		System.out.println(" 5<<5 : " + 5<<5 );
 	   	
-	   	x = 50;
-	   	y = 88; 
 	   	System.out.println("\nUnsigned Right Shift Example : ");
-		System.out.println(" x>>>2 : " + x>>>2 );
-		System.out.println(" y>>>5 : " + y>>>5 );
+		System.out.println(" 50>>>2 : " + 50>>>2 );
+		System.out.println(" 88>>>5 : " + 88>>>5 );
 	   
-	   	x = -50;
-	   	y = -88;
 	   	System.out.println("\nSigned Right Shift Example : ");
-		System.out.println(" x>>2 : " + x>>2 );
-		System.out.println(" y>>5 : " + y>>5 );
+		System.out.println(" -50>>2 : " + -50>>2 );
+		System.out.println(" -88>>5 : " + -88>>5 );
    }
    static void ifElseExample() {
 	    System.out.println("\nInside ifElseExample ...");
