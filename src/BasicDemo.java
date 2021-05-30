@@ -140,6 +140,27 @@ class BasicDemo {
 		//double d2 = 5.15;
 		//System.out.println("d1 | d2: " + (d1 | d2));
    }
+   static void bitwiseShiftOperators() {
+	        System.out.println("\nInside bitwiseShiftOperators ...");
+	   	
+	   	int x = 6;
+		int y = 3;
+	   	System.out.println("\nLeft Shift Example : ");
+		System.out.println(" x<<2 : " + x<<2 );
+		System.out.println(" y<<5 : " + y<<5 );
+	   	
+	   	x = 50;
+	   	y = 88; 
+	   	System.out.println("\nUnsigned Right Shift Example : ");
+		System.out.println(" x>>>2 : " + x>>>2 );
+		System.out.println(" y>>>5 : " + y>>>5 );
+	   
+	   	x = -50;
+	   	y = -88;
+	   	System.out.println("\nSigned Right Shift Example : ");
+		System.out.println(" x>>2 : " + x>>2 );
+		System.out.println(" y>>5 : " + y>>5 );
+   }
    static void ifElseExample() {
 	    System.out.println("\nInside ifElseExample ...");
 	    int month = 3;
