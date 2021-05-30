@@ -253,5 +253,6 @@ class BasicDemo {
 	forExample(new int[]{1,2,3,4,5,6,7,8,9});
 	forEachExample(new int[]{1,2,3,4,5,6,7,8,9});
 	whileExample(new int[]{1,2,3,4,5,6,7,8,9});
+	doWhileExample();
     }
 }
