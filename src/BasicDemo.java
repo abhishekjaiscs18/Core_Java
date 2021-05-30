@@ -263,6 +263,7 @@ class BasicDemo {
         varargsOverload(true);
 	charTypePromotion();
 	bitwiseOperators();
+	bitwiseShiftOperators();
 	ifElseExample();
 	switchExample();
 	int min = min(9,3);
