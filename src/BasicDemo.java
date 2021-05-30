@@ -221,6 +221,14 @@ class BasicDemo {
 			System.out.print(arr[i] + " ");
 		}
     }
+    static void doWhileExample(){
+		System.out.println("\nInside doWhileExample ...");
+	    	int i=0;
+	    	do{
+			System.out.println(i + " iteration");
+			i++;
+		}while(i<=5);
+    }
 
 	
 
