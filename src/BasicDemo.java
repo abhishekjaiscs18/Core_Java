@@ -214,6 +214,13 @@ class BasicDemo {
 			System.out.print(i + " ");
 		}
     }
+    static void whileExample(int[] arr){
+		System.out.println("\nInside whileExample ...");
+	    	int i=0;
+		while(i<arr.length){
+			System.out.print(arr[i] + " ");
+		}
+    }
 
 	
 
