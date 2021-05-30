@@ -74,6 +74,7 @@ class BasicDemo2 {
 		ArrayList List;
 		java.sql.Date date1;
 		stringExamples();
+		stringPool();
 
 	}
 }
