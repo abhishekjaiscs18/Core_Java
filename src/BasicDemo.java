@@ -218,7 +218,7 @@ class BasicDemo {
 		System.out.println("\nInside whileExample ...");
 	    	int i=0;
 		while(i<arr.length){
-			System.out.print(arr[i] + " ");
+			System.out.print(arr[i++] + " ");
 		}
     }
     static void doWhileExample(){
