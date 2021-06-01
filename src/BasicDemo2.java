@@ -61,9 +61,9 @@ class BasicDemo2 {
 		  String s5 = "lo!";
 
     		  System.out.println("s1 == s2: " + (s1 == s2)); \\ s1 and s2 are reffering to the same object
-  		  System.out.println("s1 == s3: " + (s1 == s3)); \\  
-   		  System.out.println("s1 == s4: " + (s1 == s4));
-  		  System.out.println("s1 == s4.intern(): " + (s1 == s4.intern()));
+  		  System.out.println("s1 == s3: " + (s1 == s3)); \\ s1 and s3 are reffering to different objects 
+   		  System.out.println("s1 == s4: " + (s1 == s4)); \\ s1 and s4 are reffering to different objects
+  		  System.out.println("s1 == s4.intern(): " + (s1 == s4.intern())); 
   		  System.out.println("s1 == \"hel\" + \"lo!\": " + (s1 == "hel" + "lo!"));
    		  System.out.println("s1 == \"hel\" + s5: " + (s1 == "hel" + s5));
     }
