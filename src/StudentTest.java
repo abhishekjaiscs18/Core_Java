@@ -50,7 +50,7 @@ class StudentTest {
 		student4 = new Student("Alex");
 		System.out.println("Name of student4: " + student4.name);
 		System.out.println("Name of student2: " + student2.name);
-		System.out.println("Name of student1: " + student1.name);
+		System.out.println("Name of student1: " + student1.name);		
 		
 	}
 }
