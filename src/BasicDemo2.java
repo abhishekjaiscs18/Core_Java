@@ -60,8 +60,8 @@ class BasicDemo2 {
 		  String s4 = new String("hello!");	 
 		  String s5 = "lo!";
 
-    		  System.out.println("s1 == s2: " + (s1 == s2));
-  		  System.out.println("s1 == s3: " + (s1 == s3));
+    		  System.out.println("s1 == s2: " + (s1 == s2)); \\ s1 and s2 are reffering to the same object
+  		  System.out.println("s1 == s3: " + (s1 == s3)); \\  
    		  System.out.println("s1 == s4: " + (s1 == s4));
   		  System.out.println("s1 == s4.intern(): " + (s1 == s4.intern()));
   		  System.out.println("s1 == \"hel\" + \"lo!\": " + (s1 == "hel" + "lo!"));
