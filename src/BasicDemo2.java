@@ -103,6 +103,7 @@ class BasicDemo2 {
 		java.sql.Date date1;
 		stringExamples();
 		stringPool();
+		stringConcatination();
 
 	}
 }
