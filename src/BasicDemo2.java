@@ -115,6 +115,7 @@ static void escapeSequence(){
 		stringExamples();
 		stringPool();
 		stringConcatination();
+		escapeSequence();
 
 	}
 }
