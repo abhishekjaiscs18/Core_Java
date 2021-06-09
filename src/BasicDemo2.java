@@ -67,6 +67,34 @@ class BasicDemo2 {
   		  System.out.println("s1 == \"hel\" + \"lo!\": " + (s1 == "hel" + "lo!")); \\ s1 and "hel" + "lo!" are reffering to the same object
    		  System.out.println("s1 == \"hel\" + s5: " + (s1 == "hel" + s5)); \\ s1 and "hel" + s5 are reffering to different objects
     }
+	static void stringConcatination(){
+
+	System.out.println("\nInside stringConcatination ...");
+	String s = "Hello" + " World!" ;
+	System.out.println("s: " + s + "\n\n");
+	
+	StringBuffer sb = new StringBuffer(s);
+	sb.append(" Good ").append("Morning...");
+	System.out.println("sb : " + sb.toString());
+	System.out.println("sb.length : " + sb.length());
+	sb.delete(1,5);
+	System.out.println("sb : " + sb.toString());
+	System.out.println("sb.length : " + sb.length());
+	sb.insert(1, "ey");
+	System.out.println("sb : " + sb.toString());
+	System.out.println("sb.length : " + sb.length()+"\n\n"); 
+
+	StringBuilder sb1 = new StringBuilder(s);
+	sb1.append(" Good ").append("Morning...");
+	System.out.println("sb1 : " + sb1.toString());
+	System.out.println("sb1.length : " + sb1.length());
+	sb1.delete(1,5);
+	System.out.println("sb1 : " + sb1.toString());
+	System.out.println("sb1.length : " + sb1.length());
+	sb1.insert(1, "ey");
+	System.out.println("sb1 : " + sb1.toString());
+	System.out.println("sb1.length : " + sb1.length());
+}
 	
 	public static void main(String[] args) {
 		System.out.println("\n Inside BasicDemo2... ");
