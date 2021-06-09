@@ -96,6 +96,17 @@ class BasicDemo2 {
 	System.out.println("sb1.length : " + sb1.length());
 }
 	
+static void escapeSequence(){
+
+	System.out.println("\nInside Escape Sequence ...");
+	String s1="Hello \"Mr. Happy\", \n\tHow are you? ";
+	System.out.println(s1);
+	
+	char[] s2 = { '\'' , '"' , 'l' , 'l' , 'o' };
+	
+	
+}
+	
 	public static void main(String[] args) {
 		System.out.println("\n Inside BasicDemo2... ");
 		Date date;
