@@ -1,17 +1,32 @@
 class Student {
     // variable declarations
-    int id; 
-    String name; 
-    String gender = "male";
-	
-	// Constructors
-	Student(int id, String name) {
-	    this(name); // Invoking overloaded constructor. If present, should be first statement
-	    this.id = id;
+    private int id; 
+    private String name; 
+    private String gender = "male";
+   
+	public int getId() {
+		return id;
 	}
-	
-	Student(String name) {
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}		
+	// Constructors
+	Student(int id, String name, String gender) {
 	    this.name = name;
+	    this.id = id;
+	    this.gender=gender;
 	}
 	
     // method definitions
